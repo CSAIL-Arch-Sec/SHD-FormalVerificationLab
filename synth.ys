@@ -1,0 +1,6 @@
+read -sv hdl/psp.sv
+read -sv hdl/memory.sv
+
+hierarchy -top psp
+proc; techmap;
+check
