@@ -1,0 +1,5 @@
+
+read_verilog -sv -defer generated_src/core_to_verify.v
+prep -flatten -top core_to_verify -nordff
+write_smt2 -stdt generated_src/core_to_verify.smt2
+

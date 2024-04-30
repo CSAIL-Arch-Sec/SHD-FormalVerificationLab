@@ -1,4 +1,0 @@
-set arch riscv:rv32
-set confirm off
-file obj_dir/kernel.elf
-target remote localhost:5050

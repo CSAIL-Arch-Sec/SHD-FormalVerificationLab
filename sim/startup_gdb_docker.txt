@@ -1,4 +1,0 @@
-set arch riscv:rv32
-set confirm off
-file ../.kernel.elf
-target remote host.docker.internal:5050
